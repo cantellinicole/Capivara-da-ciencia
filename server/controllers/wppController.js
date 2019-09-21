@@ -22,7 +22,7 @@ exports.post = (req, res, next) => {
 
     WppService.create(vm)
         .then(() => {
-            res.status(200).send(`Mensagem enviada!`);
+            res.status(200).send('Mensagem enviada!');
         }).catch(err => res.status(500).send(err))
 };
 

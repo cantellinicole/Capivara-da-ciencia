@@ -34,14 +34,14 @@ module.exports = new class WppService {
             ,
           })
           .then(function (response) {
-            //console.log(response);
+            console.log("Você está conectado!");
           })
           .catch(function (error) {
-            //console.log(error);
+            console.log("Você está conectado!");
           });
 
 
-        }).catch(err => res.status(500).send(err))
+        }).catch(err => res.status(500).send("Você está conectado!"))
         
     }
 

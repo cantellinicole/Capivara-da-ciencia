@@ -1,0 +1,62 @@
+#noticia {
+    padding: 4px;
+    margin-right: 8%;
+    margin-left: 8%;
+    border: 1px solid #da9833;
+    border-radius: 4%;
+}
+
+#botoes {
+   align-self: center;
+}
+
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+#site {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d9eeec;
+    color: #3c70a4;
+}
+
+input {
+    width: 50px;
+}
+
+h1 {
+    text-align: left;
+}
+h3 {
+    padding-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+h2 {
+    padding-bottom: 0%;
+    margin: 15%;
+    margin-bottom: 0%;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+
+header{
+    text-align: center;
+}
+
+footer {
+    font-weight: 700;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+

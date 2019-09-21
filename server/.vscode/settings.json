@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/3a5b5e1c-21b8-4336-9cac-8e6a08b9a196/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/capivara-da-ciencia",
+    "appService.deploySubpath": ""
+}
